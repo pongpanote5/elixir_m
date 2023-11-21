@@ -32,5 +32,4 @@ Error Messages
 
 Seeking Solutions
 
-Insights or suggestions regarding Phoenix 1.7's updated features and correct procedures for token usage from the MediaWiki API would be greatly appreciated.
-
+CURRENTLY reading documentation of phoenix 1.7+ 
