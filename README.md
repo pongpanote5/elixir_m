@@ -33,3 +33,6 @@ Error Messages
 Seeking Solutions
 
 CURRENTLY reading documentation of phoenix 1.7+ 
+
+FUTURE 
+Add feature to editing,remove content in mediawiki, finish account creation, fix login page and Full test for the web
