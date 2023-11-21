@@ -1,18 +1,36 @@
-# ElixirM
+Pong
+Project Overview
 
-To start your Phoenix server:
+Developing a test abstract web application with the Elixir Phoenix framework, this project integrates with the MediaWiki API for user-related functionalities.
+Key Components
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+    Frontend: Designed with HTML/CSS and JavaScript, using Phoenix Framework Templates for dynamic content rendering.
+    Backend: Developed in Elixir, employing the Phoenix framework and OTP for efficient performance under load.
+    MediaWiki API Integration: Enables features like user creation and authentication, with future plans to implement OAuth2 for enhanced security.
+    Database: User data and session information are currently managed using PostgreSQL, with a focus on secure data handling and session management.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Current Progress
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+    Login Page: Functional but encountering authentication issues.
+    Account Creation Page: Under development, with plans to add CAPTCHA.
+    Search Wiki Page: Allows searching within MediaWiki.
 
-## Learn more
+Problem Description
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+Facing challenges in user authentication, specifically with integrating a login feature using the MediaWiki API in Phoenix 1.7. Primary issues include:
+
+    Redirecting back to the login page after submitting the login form.
+    Errors in the TestApp.MediaWikiClient.login/2 function.
+    Difficulties in fetching login tokens from the MediaWiki API.
+    Adapting to Phoenix 1.7, particularly with component usage in controllers.
+
+Error Messages
+
+    UndefinedFunctionError for TestApp.MediaWikiClient.login/2.
+    token_error following the login form submission.
+    Challenges with Phoenix.Component.render/2 in Phoenix 1.7+.
+
+Seeking Solutions
+
+Insights or suggestions regarding Phoenix 1.7's updated features and correct procedures for token usage from the MediaWiki API would be greatly appreciated.
+
