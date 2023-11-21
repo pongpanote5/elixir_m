@@ -36,3 +36,14 @@ CURRENTLY reading documentation of phoenix 1.7+
 
 FUTURE 
 Add feature to editing,remove content in mediawiki, finish account creation, fix login page and Full test for the web
+
+
+Screenshot
+## Login Page
+Here's a preview of our login page:
+![Login Page Screenshot](https://github.com/pongpanote5/elixir_m/assets/139761245/3a95d7b5-473e-4f37-b52b-ed0856148e3f)
+
+
+## Wiki Finder Page
+Below is the screenshot of our wiki finder page:
+![Wiki Finder Page Screenshot](https://github.com/pongpanote5/elixir_m/assets/139761245/4fe533d9-dd03-4b21-8461-041e9514f9c8)
